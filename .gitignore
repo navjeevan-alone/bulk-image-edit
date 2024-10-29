@@ -1,0 +1,5 @@
+/input 
+/output
+/__pycache__/*
+*.exe 
+test.py
