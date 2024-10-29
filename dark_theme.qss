@@ -1,0 +1,178 @@
+QWidget {
+    background-color: #2E2E2E;
+    color:  #FFFFFF;
+    font-size: 16px;
+}
+ 
+QLabel {
+    font-size: 16px;
+    color:  #FFFFFF;
+    min-width:250px;
+}
+ 
+QLineEdit {
+    background-color: #424242;
+    color: #E0E0E0;
+    border: 1px solid #424242;
+    padding: 8px;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+QLineEdit:hover {
+    background-color: #5A5A5A;
+}
+
+QLineEdit:focus {
+    border: 1px solid #4A90E2;
+    outline: none;
+}
+
+QLineEdit[error="true"] {
+    border: 1px solid  #E74C3C;
+    color:  #E74C3C;
+}
+ 
+QPushButton {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+ 
+QPushButton {
+    background-color: #424242;
+    color:  #FFFFFF;
+}
+#run_button {
+    background-color:#3498db;
+    color: #FFFFFF;
+}
+
+QPushButton:hover {
+    background-color: #5A5A5A;
+} 
+/* SpinBox Base Styling */
+QSpinBox {
+    background-color: #5A5A5A;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #555555;
+    border-radius: 4px; 
+    width: 100px;
+    
+}
+
+/* SpinBox Hover State */
+QSpinBox:hover {
+    border: 1px solid #777777;
+}
+
+/* SpinBox Focused State */
+QSpinBox:focus {
+    border: 1px solid #3498db;  /* Blue outline on focus */
+}
+
+/* SpinBox Up and Down Buttons */
+QSpinBox::up-button, QSpinBox::down-button {
+    background-color: #444444;
+    width: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+QSpinBox::up-button:hover, QSpinBox::down-button:hover {
+    background-color: #555555;
+}
+
+QSpinBox::up-button:pressed, QSpinBox::down-button:pressed {
+    background-color: #2e86c1;  /* Darker blue on press */
+}
+
+/* Arrow Styles */
+QSpinBox::up-arrow, QSpinBox::down-arrow {
+    width: 8px;
+    height: 8px;
+}
+
+QSpinBox::up-arrow {
+    image: url(./assets/arrow-up-icon.png);  
+}
+
+QSpinBox::down-arrow {
+    image: url(./assets/arrow-down-icon.png);
+}
+/* ComboBox Base Styling */
+QComboBox {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #555555;
+    border-radius: 4px; 
+}
+QComboBox#file_format_combo{
+    min-width: 350px;
+}
+/* ComboBox Hover State */
+QComboBox:hover {
+    border: 1px solid #777777;
+}
+
+/* ComboBox Focused State */
+QComboBox:focus {
+    border: 1px solid #3498db;  /* Blue outline on focus */
+}
+
+/* Drop-down Arrow Styling */
+QComboBox::drop-down {
+    width: 30px;
+    border-left: 1px solid #555555;
+    background-color: #444444;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+QComboBox::down-arrow {
+    image: url(./assets/arrow-down-icon.png); /* Path to custom down arrow icon */
+    width: 8px;
+    height: 8px;
+}
+
+/* ComboBox Popup Styling (when expanded) */
+QComboBox QAbstractItemView {
+    background-color: #333333;
+    border: 1px solid #555555;
+    color: #ffffff;
+    selection-background-color: #555555;
+    selection-color: #ffffff;
+}
+
+/* ComboBox Disabled State */
+QComboBox:disabled {
+    background-color: #222222;
+    color: #777777;
+    border: 1px solid #444444;
+}
+/* Targeting runButton specifically */
+#runButton {
+    background-color: #3498db;      /* Primary color */
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 12px;
+    min-width: 300px;
+}
+
+/* Optional Hover State */
+#runButton:hover {
+    background-color: #2980b9;      /* Slightly darker blue */
+}
+
+/* Optional Pressed State */
+#runButton:pressed {
+    background-color: #1c598a;      /* Darker blue on press */
+}
