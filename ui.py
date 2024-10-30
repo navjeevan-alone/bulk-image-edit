@@ -10,7 +10,7 @@ import sys
 from utils import load_stylesheet, resource_path, update_aspect_ratio, update_size_units
 from image_processing import ImageProcessing
 
-class BulkImageEditorUI(QWidget):
+class AppUI(QWidget):
     def __init__(self):
         super().__init__()
         self.init_ui()
@@ -71,25 +71,6 @@ class BulkImageEditorUI(QWidget):
         size_layout.addWidget(self.height_input)
         size_layout.addWidget(self.size_unit_combo)
 
-        # Image Aspect Ration
-        ratio_layout = QHBoxLayout()
-        ratio_label = QLabel("Aspect Ratio :")
-        self.ratio_width_input = QSpinBox()
-        self.ratio_width_input.setValue(1) 
-        self.ratio_width_input.setMaximum(100) 
-        self.ratio_height_input = QSpinBox()
-        self.ratio_height_input.setValue(1080)
-        self.ratio_height_input.setMaximum(100)
-
-        self.ratio_combo = QComboBox()
-        self.ratio_combo.addItems(["--presets--", "Original", "1:1", "16:9", "4:3"])
-        self.ratio_combo.currentIndexChanged.connect(self.sync_aspect_ratio)
-
-        ratio_layout.addWidget(ratio_label)
-        ratio_layout.addWidget(self.ratio_width_input)
-        ratio_layout.addWidget(self.ratio_height_input)
-        ratio_layout.addWidget(self.ratio_combo)
-
         # Background Color
         bg_layout = QHBoxLayout()
         bg_label = QLabel("Background Color:")
@@ -141,8 +122,7 @@ class BulkImageEditorUI(QWidget):
         # Adding layouts to the central layout
         central_layout.addLayout(input_layout)
         central_layout.addLayout(output_layout)
-        central_layout.addLayout(size_layout)
-        central_layout.addLayout(ratio_layout)
+        central_layout.addLayout(size_layout) 
         central_layout.addLayout(bg_layout)
         central_layout.addLayout(padding_layout)
         central_layout.addLayout(format_layout)
@@ -196,12 +176,3 @@ class BulkImageEditorUI(QWidget):
     def sync_aspect_ratio(self):
         """Synchronize aspect ratio width and height inputs."""
         update_aspect_ratio(self.ratio_width_input, self.ratio_height_input, self.ratio_combo.currentText())
-
-
-    
-    
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = BulkImageEditorUI()
-    window.show()
-    sys.exit(app.exec_())
