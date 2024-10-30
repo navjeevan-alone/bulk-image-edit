@@ -3,4 +3,6 @@
 /__pycache__/*
 *.exe 
 test.py
-/.vscode
+.vscode
+*.log
+.vscode/PythonImportHelper-v2-Completion.json
