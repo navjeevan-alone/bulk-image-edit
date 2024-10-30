@@ -25,6 +25,7 @@ class AppUI(QWidget):
         QFontDatabase.addApplicationFont(resource_path("assets\\Norican-Regular.ttf"))
         QFontDatabase.addApplicationFont(resource_path("assets\\Poppins-Regular.ttf"))
 
+        self.setFont(QFont("Poppins", 14))
         # Central widget for layout
         central_widget = QWidget(self)
         central_layout = QVBoxLayout(central_widget)
@@ -36,16 +37,17 @@ class AppUI(QWidget):
         app_image_label.setPixmap(QPixmap(resource_path("assets\\logo-transparent.png")).scaled(120, 120, Qt.KeepAspectRatio))
         app_image_label.setAlignment(Qt.AlignRight)
 
+        # App title with 'Norican' font
         app_title_label = QLabel("Magic Edits")
-        app_title_label.setAlignment(Qt.AlignCenter) 
-        app_title_label.setFont(QFont("Norican",14))
+        title_font = QFont("Norican",500) 
+        app_title_label.setFont(title_font)
+        app_title_label.setAlignment(Qt.AlignCenter)
+
 
         # Add to central layout
         brand_layout.addWidget(app_image_label)
         brand_layout.addWidget(app_title_label)
-        
-        # Remaining UI elements below this line (buttons, inputs, etc.)
-        self.setFont(QFont("Poppins-Regular", 14))
+ 
         
         # Input Folder Selection
         input_layout = QHBoxLayout()
