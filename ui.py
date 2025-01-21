@@ -1,32 +1,53 @@
-# ui/ui.py
-
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
     QLineEdit, QComboBox, QSpinBox, QFileDialog
 )
-from PyQt5.QtGui import QIcon
+from PyQt5.QtGui import QIcon,QFontDatabase,QPixmap,QFont
 from PyQt5.QtCore import Qt
 import sys
 from utils import load_stylesheet, resource_path, update_aspect_ratio, update_size_units
 from image_processing import ImageProcessing
 
-class BulkImageEditorUI(QWidget):
+class AppUI(QWidget):
     def __init__(self):
         super().__init__()
         self.init_ui()
 
     def init_ui(self):
         # Set main window properties
-        self.setWindowTitle("Bulk Image Editor")
-        self.setGeometry(200, 100, 800, 400)
-        self.setMaximumWidth(600)  # Setting a max width for central alignment
+        self.setWindowTitle("Magic Edits")
+        self.setGeometry(200, 100, 800, 500)
+        self.setMaximumWidth(600)  # Max width for central alignment
         self.setWindowIcon(QIcon(resource_path("assets\\icon.ico")))
-        self.setStyleSheet(load_stylesheet(resource_path("dark_theme.qss")))  
+        self.setStyleSheet(load_stylesheet(resource_path("dark_theme.qss")))
 
-        # Central widget to keep all elements centered
+        # Load custom fonts
+        QFontDatabase.addApplicationFont(resource_path("assets\\Norican-Regular.ttf"))
+        QFontDatabase.addApplicationFont(resource_path("assets\\Poppins-Regular.ttf"))
+
+        self.setFont(QFont("Poppins", 14))
+        # Central widget for layout
         central_widget = QWidget(self)
         central_layout = QVBoxLayout(central_widget)
         central_layout.setAlignment(Qt.AlignCenter)
+
+        # App image and title
+        brand_layout = QHBoxLayout()
+        app_image_label = QLabel(self)
+        app_image_label.setPixmap(QPixmap(resource_path("assets\\logo-transparent.png")).scaled(120, 120, Qt.KeepAspectRatio))
+        app_image_label.setAlignment(Qt.AlignRight)
+
+        # App title with 'Norican' font
+        app_title_label = QLabel("Magic Edits")
+        title_font = QFont("Norican",500) 
+        app_title_label.setFont(title_font)
+        app_title_label.setAlignment(Qt.AlignCenter)
+
+
+        # Add to central layout
+        brand_layout.addWidget(app_image_label)
+        brand_layout.addWidget(app_title_label)
+ 
         
         # Input Folder Selection
         input_layout = QHBoxLayout()
@@ -71,25 +92,6 @@ class BulkImageEditorUI(QWidget):
         size_layout.addWidget(self.height_input)
         size_layout.addWidget(self.size_unit_combo)
 
-        # Image Aspect Ration
-        ratio_layout = QHBoxLayout()
-        ratio_label = QLabel("Aspect Ratio :")
-        self.ratio_width_input = QSpinBox()
-        self.ratio_width_input.setValue(1) 
-        self.ratio_width_input.setMaximum(100) 
-        self.ratio_height_input = QSpinBox()
-        self.ratio_height_input.setValue(1080)
-        self.ratio_height_input.setMaximum(100)
-
-        self.ratio_combo = QComboBox()
-        self.ratio_combo.addItems(["--presets--", "Original", "1:1", "16:9", "4:3"])
-        self.ratio_combo.currentIndexChanged.connect(self.sync_aspect_ratio)
-
-        ratio_layout.addWidget(ratio_label)
-        ratio_layout.addWidget(self.ratio_width_input)
-        ratio_layout.addWidget(self.ratio_height_input)
-        ratio_layout.addWidget(self.ratio_combo)
-
         # Background Color
         bg_layout = QHBoxLayout()
         bg_label = QLabel("Background Color:")
@@ -119,34 +121,19 @@ class BulkImageEditorUI(QWidget):
         format_layout.addWidget(format_label)
         format_layout.addWidget(self.file_format_combo)
 
-        # File Size Range
-        size_range_layout = QHBoxLayout()
-        size_range_label = QLabel("File Size Range (Min - Max KB):")
-        self.min_size_input = QSpinBox()
-        self.min_size_input.setValue(0)
-        self.min_size_input.setMaximum(100000)
-        self.max_size_input = QSpinBox()
-        self.max_size_input.setValue(2048)
-        self.max_size_input.setMaximum(100000)
-
-        size_range_layout.addWidget(size_range_label)
-        size_range_layout.addWidget(self.min_size_input)
-        size_range_layout.addWidget(self.max_size_input)
-
         # Run Button
         self.run_button = QPushButton("Run")
         self.run_button.setObjectName("runButton")
         self.run_button.clicked.connect(self.run_processing)
 
         # Adding layouts to the central layout
+        central_layout.addLayout(brand_layout)
         central_layout.addLayout(input_layout)
         central_layout.addLayout(output_layout)
-        central_layout.addLayout(size_layout)
-        central_layout.addLayout(ratio_layout)
+        central_layout.addLayout(size_layout) 
         central_layout.addLayout(bg_layout)
         central_layout.addLayout(padding_layout)
-        central_layout.addLayout(format_layout)
-        central_layout.addLayout(size_range_layout)
+        central_layout.addLayout(format_layout) 
         central_layout.addWidget(self.run_button, alignment=Qt.AlignRight)
 
         # Set central widget layout
@@ -196,12 +183,3 @@ class BulkImageEditorUI(QWidget):
     def sync_aspect_ratio(self):
         """Synchronize aspect ratio width and height inputs."""
         update_aspect_ratio(self.ratio_width_input, self.ratio_height_input, self.ratio_combo.currentText())
-
-
-    
-    
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = BulkImageEditorUI()
-    window.show()
-    sys.exit(app.exec_())
