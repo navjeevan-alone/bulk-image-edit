@@ -26,7 +26,7 @@
         "documentation": {}
     },
     {
-        "label": "ImageEditorUI",
+        "label": "AppUI",
         "importPath": "ui",
         "description": "ui",
         "isExtraImport": true,
@@ -131,23 +131,47 @@
         "documentation": {}
     },
     {
-        "label": "change_file_format",
-        "importPath": "image_processor",
-        "description": "image_processor",
+        "label": "QSpacerItem",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
         "isExtraImport": true,
-        "detail": "image_processor",
+        "detail": "PyQt5.QtWidgets",
         "documentation": {}
     },
     {
-        "label": "adjust_file_size",
-        "importPath": "image_processor",
-        "description": "image_processor",
+        "label": "QSizePolicy",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
         "isExtraImport": true,
-        "detail": "image_processor",
+        "detail": "PyQt5.QtWidgets",
         "documentation": {}
     },
     {
         "label": "QIcon",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QFontDatabase",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QPixmap",
+        "importPath": "PyQt5.QtGui",
+        "description": "PyQt5.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QFont",
         "importPath": "PyQt5.QtGui",
         "description": "PyQt5.QtGui",
         "isExtraImport": true,
@@ -203,6 +227,15 @@
         "documentation": {}
     },
     {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
         "label": "ImageProcessing",
         "kind": 6,
         "importPath": "image_processing",
@@ -212,65 +245,11 @@
         "documentation": {}
     },
     {
-        "label": "input_image_path",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "input_image_path = './input/jacket.jpg'\nnew_format = 'webp'\nmin_size = 100  # Minimum size in KB\nmax_size = 500  # Maximum size in KB\nmin_quality = 50  # Minimum quality percentage\n# Change file format\nnew_file = change_file_format(input_image_path, new_format)\n# Adjust file size\nif new_file:\n    adjusted_file = adjust_file_size(new_file, min_size, max_size, min_quality)",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "new_format",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "new_format = 'webp'\nmin_size = 100  # Minimum size in KB\nmax_size = 500  # Maximum size in KB\nmin_quality = 50  # Minimum quality percentage\n# Change file format\nnew_file = change_file_format(input_image_path, new_format)\n# Adjust file size\nif new_file:\n    adjusted_file = adjust_file_size(new_file, min_size, max_size, min_quality)",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "min_size",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "min_size = 100  # Minimum size in KB\nmax_size = 500  # Maximum size in KB\nmin_quality = 50  # Minimum quality percentage\n# Change file format\nnew_file = change_file_format(input_image_path, new_format)\n# Adjust file size\nif new_file:\n    adjusted_file = adjust_file_size(new_file, min_size, max_size, min_quality)",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "max_size",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "max_size = 500  # Maximum size in KB\nmin_quality = 50  # Minimum quality percentage\n# Change file format\nnew_file = change_file_format(input_image_path, new_format)\n# Adjust file size\nif new_file:\n    adjusted_file = adjust_file_size(new_file, min_size, max_size, min_quality)",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "min_quality",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "min_quality = 50  # Minimum quality percentage\n# Change file format\nnew_file = change_file_format(input_image_path, new_format)\n# Adjust file size\nif new_file:\n    adjusted_file = adjust_file_size(new_file, min_size, max_size, min_quality)",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "new_file",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "new_file = change_file_format(input_image_path, new_format)\n# Adjust file size\nif new_file:\n    adjusted_file = adjust_file_size(new_file, min_size, max_size, min_quality)",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "BulkImageEditorUI",
+        "label": "AppUI",
         "kind": 6,
         "importPath": "ui",
         "description": "ui",
-        "peekOfCode": "class BulkImageEditorUI(QWidget):\n    def __init__(self):\n        super().__init__()\n        self.init_ui()\n    def init_ui(self):\n        # Set main window properties\n        self.setWindowTitle(\"Bulk Image Editor\")\n        self.setGeometry(200, 100, 800, 400)\n        self.setMaximumWidth(600)  # Setting a max width for central alignment\n        self.setWindowIcon(QIcon(resource_path(\"assets\\\\icon.ico\")))",
+        "peekOfCode": "class AppUI(QWidget):\n    def __init__(self):\n        super().__init__()\n        self.init_ui()\n    def init_ui(self):\n        # Set main window properties\n        self.setWindowTitle(\"Magic Edits\")\n        self.setGeometry(200, 100, 800, 500)\n        self.setMaximumWidth(600)  # Max width for central alignment\n        self.setWindowIcon(QIcon(resource_path(\"./assets/icon.ico\")))",
         "detail": "ui",
         "documentation": {}
     },
@@ -279,7 +258,7 @@
         "kind": 2,
         "importPath": "utils",
         "description": "utils",
-        "peekOfCode": "def load_stylesheet(filename):\n    with open(filename, \"r\") as file:\n        return file.read()\ndef resource_path(relative_path):\n    \"\"\" Get absolute path to resource, works for dev and for PyInstaller \"\"\"\n    try:\n        # PyInstaller creates a temp folder and stores path in _MEIPASS\n        base_path = sys._MEIPASS2\n    except Exception:\n        base_path = os.path.abspath(\".\")",
+        "peekOfCode": "def load_stylesheet(stylesheet_path):\n    \"\"\"Loads a stylesheet from the given path and converts relative asset URLs to absolute paths.\"\"\"\n    with open(stylesheet_path, \"r\") as stylesheet_file:\n        stylesheet = stylesheet_file.read()\n        # Replace all occurrences of 'url(./assets/...' with absolute paths\n        stylesheet = re.sub(\n            r'url\\((\\./assets/.*?)\\)', \n            lambda match: f'url({resource_path(match.group(1))})',\n            stylesheet\n        )",
         "detail": "utils",
         "documentation": {}
     },

@@ -1,9 +1,10 @@
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
-    QLineEdit, QComboBox, QSpinBox, QFileDialog
+    QLineEdit, QComboBox, QSpinBox, QFileDialog,QSpacerItem, QSizePolicy
 )
 from PyQt5.QtGui import QIcon,QFontDatabase,QPixmap,QFont
 from PyQt5.QtCore import Qt
+import logging
 import sys
 from utils import load_stylesheet, resource_path, update_aspect_ratio, update_size_units
 from image_processing import ImageProcessing
@@ -18,14 +19,14 @@ class AppUI(QWidget):
         self.setWindowTitle("Magic Edits")
         self.setGeometry(200, 100, 800, 500)
         self.setMaximumWidth(600)  # Max width for central alignment
-        self.setWindowIcon(QIcon(resource_path("assets\\icon.ico")))
-        self.setStyleSheet(load_stylesheet(resource_path("dark_theme.qss")))
+        self.setWindowIcon(QIcon(resource_path("./assets/icon.ico")))
+        self.setStyleSheet(load_stylesheet(resource_path("./styles.css")))
 
         # Load custom fonts
-        QFontDatabase.addApplicationFont(resource_path("assets\\Norican-Regular.ttf"))
-        QFontDatabase.addApplicationFont(resource_path("assets\\Poppins-Regular.ttf"))
+        QFontDatabase.addApplicationFont(resource_path("assets/Norican-Regular.ttf"))
+        QFontDatabase.addApplicationFont(resource_path("assets/Poppins-Regular.ttf"))
 
-        self.setFont(QFont("Poppins", 14))
+        # self.setFont(QFont("Poppins", 14))
         # Central widget for layout
         central_widget = QWidget(self)
         central_layout = QVBoxLayout(central_widget)
@@ -33,21 +34,24 @@ class AppUI(QWidget):
 
         # App image and title
         brand_layout = QHBoxLayout()
-        app_image_label = QLabel(self)
-        app_image_label.setPixmap(QPixmap(resource_path("assets\\logo-transparent.png")).scaled(120, 120, Qt.KeepAspectRatio))
-        app_image_label.setAlignment(Qt.AlignRight)
+        # brand_layout.insertSpacing(3,100)
+        # Add spacer
+        self.right_spacer = QSpacerItem(40, 40, QSizePolicy.Expanding, QSizePolicy.Maximum)
 
+        self.app_image_label = QLabel(self)
+        self.app_image_label.setPixmap(QPixmap(resource_path("assets/logo-transparent.png")).scaled(120, 120, Qt.KeepAspectRatio))
+        self.app_image_label.setAlignment(Qt.AlignRight)
+        
         # App title with 'Norican' font
-        app_title_label = QLabel("Magic Edits")
-        title_font = QFont("Norican",500) 
-        app_title_label.setFont(title_font)
-        app_title_label.setAlignment(Qt.AlignCenter)
+        self.app_title_label = QLabel("Magic Edits")
+        self.app_title_label.setObjectName("app_title_label")
+        self.app_title_label.setAlignment(Qt.AlignCenter)
 
+        # Add widgets to brand layout 
+        brand_layout.addWidget(self.app_image_label)
+        brand_layout.addWidget(self.app_title_label)
+        brand_layout.addItem(self.right_spacer)
 
-        # Add to central layout
-        brand_layout.addWidget(app_image_label)
-        brand_layout.addWidget(app_title_label)
- 
         
         # Input Folder Selection
         input_layout = QHBoxLayout()
@@ -97,14 +101,16 @@ class AppUI(QWidget):
         bg_label = QLabel("Background Color:")
         self.bg_color_input = QLineEdit()
         self.bg_color_input.setPlaceholderText("Enter color (e.g., #FFFFFF for white)")
-
+        
         bg_layout.addWidget(bg_label)
         bg_layout.addWidget(self.bg_color_input)
         
         # Background Color
         padding_layout = QHBoxLayout()
         padding_label = QLabel("Padding :")
+        
         self.padding_input = QSpinBox()
+        # self.padding_input.setPlaceholderText("Input folder path...") 
         self.padding_input.setValue(0)
         self.padding_input.setMaximum(1000) 
 
@@ -178,8 +184,10 @@ class AppUI(QWidget):
 
     def sync_size_units(self):
         """Synchronize size units between width, height, and the selected unit."""
+        print("sync size units triggered",self.size_unit_combo.currentText())
         update_size_units(self.width_input, self.height_input, self.size_unit_combo.currentText())
 
     def sync_aspect_ratio(self):
         """Synchronize aspect ratio width and height inputs."""
         update_aspect_ratio(self.ratio_width_input, self.ratio_height_input, self.ratio_combo.currentText())
+        

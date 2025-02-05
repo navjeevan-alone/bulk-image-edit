@@ -1,9 +1,18 @@
 import sys
 import os 
-# Load styles from the CSS file
-def load_stylesheet(filename):
-    with open(filename, "r") as file:
-        return file.read()
+import re
+
+def load_stylesheet(stylesheet_path):
+    """Loads a stylesheet from the given path and converts relative asset URLs to absolute paths."""
+    with open(stylesheet_path, "r") as stylesheet_file:
+        stylesheet = stylesheet_file.read()
+        # Replace all occurrences of 'url(./assets/...' with absolute paths
+        stylesheet = re.sub(
+            r'url\((\./assets/.*?)\)', 
+            lambda match: f'url({resource_path(match.group(1))})',
+            stylesheet
+        )
+    return stylesheet
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """

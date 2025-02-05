@@ -7,3 +7,5 @@ test.py
 *.log
 .vscode/PythonImportHelper-v2-Completion.json
 /venv
+config.json
+image_processing.log

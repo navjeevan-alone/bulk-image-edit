@@ -1,0 +1,17 @@
+Installation Complete! 🎉
+Magic Edits is now ready for use on your system.
+
+Quick Start:
+
+Launch Magic Edits from your start menu or desktop.
+Load your image folder, customize settings, and let Magic Edits do the rest.
+View logs to track your editing process in real-time.
+Productivity Boosts:
+
+Edit hundreds of images in just a few seconds.
+Maintain consistent quality and presentation across your image collections.
+Need Help?
+
+Access user guides and documentation within the app.
+Report any issues or suggest features on our GitHub page – your feedback helps us improve!
+Thank you for choosing Magic Edits. Happy editing!

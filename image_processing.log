@@ -1,196 +1,118 @@
-2024-10-30 02:09:37,397 - INFO - Starting image processing.
-2024-10-30 02:09:37,397 - DEBUG - Processing image: jacket(1).jpg
-2024-10-30 02:09:37,415 - DEBUG - Created background image with color #00F and dimensions 100x500
-2024-10-30 02:09:37,443 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:09:37,443 - DEBUG - Pasted image onto background at offset (-138, 0)
-2024-10-30 02:09:37,457 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(1).jpg with format None and quality default
-2024-10-30 02:09:37,458 - DEBUG - Processing image: jacket(2).jpg
-2024-10-30 02:09:37,458 - DEBUG - Created background image with color #00F and dimensions 100x500
-2024-10-30 02:09:37,491 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:09:37,491 - DEBUG - Pasted image onto background at offset (-138, 0)
-2024-10-30 02:09:37,491 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(2).jpg with format None and quality default
-2024-10-30 02:09:37,492 - DEBUG - Processing image: jacket(3).jpg
-2024-10-30 02:09:37,493 - DEBUG - Created background image with color #00F and dimensions 100x500
-2024-10-30 02:09:37,524 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:09:37,525 - DEBUG - Pasted image onto background at offset (-138, 0)
-2024-10-30 02:09:37,526 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(3).jpg with format None and quality default
-2024-10-30 02:09:37,526 - DEBUG - Processing image: jacket.jpg
-2024-10-30 02:09:37,527 - DEBUG - Created background image with color #00F and dimensions 100x500
-2024-10-30 02:09:37,560 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:09:37,560 - DEBUG - Pasted image onto background at offset (-138, 0)
-2024-10-30 02:09:37,562 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket.jpg with format None and quality default
-2024-10-30 02:09:37,562 - INFO - Image processing completed.
-2024-10-30 02:10:52,243 - INFO - Starting image processing.
-2024-10-30 02:10:52,245 - DEBUG - Processing image: jacket(1).jpg
-2024-10-30 02:10:52,246 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:10:52,275 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:10:52,275 - DEBUG - Pasted image onto background at offset (62, 0)
-2024-10-30 02:10:52,276 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(1).jpg with format None and quality default
-2024-10-30 02:10:52,277 - DEBUG - Processing image: jacket(2).jpg
-2024-10-30 02:10:52,278 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:10:52,310 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:10:52,311 - DEBUG - Pasted image onto background at offset (62, 0)
-2024-10-30 02:10:52,312 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(2).jpg with format None and quality default
-2024-10-30 02:10:52,312 - DEBUG - Processing image: jacket(3).jpg
-2024-10-30 02:10:52,313 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:10:52,345 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:10:52,346 - DEBUG - Pasted image onto background at offset (62, 0)
-2024-10-30 02:10:52,347 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(3).jpg with format None and quality default
-2024-10-30 02:10:52,347 - DEBUG - Processing image: jacket.jpg
-2024-10-30 02:10:52,348 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:10:52,382 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:10:52,383 - DEBUG - Pasted image onto background at offset (62, 0)
-2024-10-30 02:10:52,384 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket.jpg with format None and quality default
-2024-10-30 02:10:52,385 - INFO - Image processing completed.
-2024-10-30 02:11:12,337 - INFO - Starting image processing.
-2024-10-30 02:11:12,337 - DEBUG - Processing image: jacket(1).jpg
-2024-10-30 02:11:12,338 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:11:12,369 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:11:12,370 - DEBUG - Pasted image onto background at offset (62, 0)
-2024-10-30 02:11:12,587 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(1).webp with format WEBP and quality default
-2024-10-30 02:11:12,588 - DEBUG - Processing image: jacket(2).jpg
-2024-10-30 02:11:12,589 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:11:12,621 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:11:12,621 - DEBUG - Pasted image onto background at offset (62, 0)
-2024-10-30 02:11:12,669 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(2).webp with format WEBP and quality default
-2024-10-30 02:11:12,669 - DEBUG - Processing image: jacket(3).jpg
-2024-10-30 02:11:12,670 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:11:12,702 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:11:12,702 - DEBUG - Pasted image onto background at offset (62, 0)
-2024-10-30 02:11:12,747 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(3).webp with format WEBP and quality default
-2024-10-30 02:11:12,748 - DEBUG - Processing image: jacket.jpg
-2024-10-30 02:11:12,748 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:11:12,783 - DEBUG - Resized image with padding. New dimensions: 375x500
-2024-10-30 02:11:12,783 - DEBUG - Pasted image onto background at offset (62, 0)
-2024-10-30 02:11:12,829 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket.webp with format WEBP and quality default
-2024-10-30 02:11:12,830 - INFO - Image processing completed.
-2024-10-30 02:11:49,662 - INFO - Starting image processing.
-2024-10-30 02:11:49,663 - DEBUG - Processing image: jacket(1).jpg
-2024-10-30 02:11:49,664 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:11:49,695 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:11:49,695 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:11:49,730 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(1).webp with format WEBP and quality default
-2024-10-30 02:11:49,730 - DEBUG - Processing image: jacket(2).jpg
-2024-10-30 02:11:49,731 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:11:49,763 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:11:49,763 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:11:49,806 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(2).webp with format WEBP and quality default
-2024-10-30 02:11:49,807 - DEBUG - Processing image: jacket(3).jpg
-2024-10-30 02:11:49,808 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:11:49,840 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:11:49,840 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:11:49,882 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(3).webp with format WEBP and quality default
-2024-10-30 02:11:49,882 - DEBUG - Processing image: jacket.jpg
-2024-10-30 02:11:49,883 - DEBUG - Created background image with color #00F and dimensions 500x500
-2024-10-30 02:11:49,916 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:11:49,917 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:11:49,959 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket.webp with format WEBP and quality default
-2024-10-30 02:11:49,960 - INFO - Image processing completed.
-2024-10-30 02:12:08,917 - INFO - Starting image processing.
-2024-10-30 02:12:08,917 - DEBUG - Processing image: jacket(1).jpg
-2024-10-30 02:12:08,919 - DEBUG - Created background image with color #CCC and dimensions 500x500
-2024-10-30 02:12:08,949 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:12:08,949 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:12:08,984 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(1).webp with format WEBP and quality default
-2024-10-30 02:12:08,985 - DEBUG - Processing image: jacket(2).jpg
-2024-10-30 02:12:08,985 - DEBUG - Created background image with color #CCC and dimensions 500x500
-2024-10-30 02:12:09,018 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:12:09,019 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:12:09,061 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(2).webp with format WEBP and quality default
-2024-10-30 02:12:09,061 - DEBUG - Processing image: jacket(3).jpg
-2024-10-30 02:12:09,063 - DEBUG - Created background image with color #CCC and dimensions 500x500
-2024-10-30 02:12:09,094 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:12:09,094 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:12:09,135 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(3).webp with format WEBP and quality default
-2024-10-30 02:12:09,136 - DEBUG - Processing image: jacket.jpg
-2024-10-30 02:12:09,137 - DEBUG - Created background image with color #CCC and dimensions 500x500
-2024-10-30 02:12:09,170 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:12:09,170 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:12:09,214 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket.webp with format WEBP and quality default
-2024-10-30 02:12:09,214 - INFO - Image processing completed.
-2024-10-30 02:12:15,641 - INFO - Starting image processing.
-2024-10-30 02:12:15,641 - DEBUG - Processing image: jacket(1).jpg
-2024-10-30 02:12:15,642 - DEBUG - Created background image with color #CCC and dimensions 500x500
-2024-10-30 02:12:15,673 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:12:15,673 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:12:15,708 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(1).webp with format WEBP and quality default
-2024-10-30 02:12:15,708 - DEBUG - Processing image: jacket(2).jpg
-2024-10-30 02:12:15,709 - DEBUG - Created background image with color #CCC and dimensions 500x500
-2024-10-30 02:12:15,741 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:12:15,741 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:12:15,783 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(2).webp with format WEBP and quality default
-2024-10-30 02:12:15,784 - DEBUG - Processing image: jacket(3).jpg
-2024-10-30 02:12:15,785 - DEBUG - Created background image with color #CCC and dimensions 500x500
-2024-10-30 02:12:15,816 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:12:15,816 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:12:15,858 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(3).webp with format WEBP and quality default
-2024-10-30 02:12:15,859 - DEBUG - Processing image: jacket.jpg
-2024-10-30 02:12:15,860 - DEBUG - Created background image with color #CCC and dimensions 500x500
-2024-10-30 02:12:15,892 - DEBUG - Resized image with padding. New dimensions: 360x480
-2024-10-30 02:12:15,892 - DEBUG - Pasted image onto background at offset (70, 10)
-2024-10-30 02:12:15,936 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket.webp with format WEBP and quality default
-2024-10-30 02:12:15,937 - INFO - Image processing completed.
-2024-10-30 02:12:28,164 - INFO - Starting image processing.
-2024-10-30 02:12:28,165 - DEBUG - Processing image: jacket(1).jpg
-2024-10-30 02:12:28,171 - DEBUG - Created background image with color #CCC and dimensions 1889x1889
-2024-10-30 02:12:28,248 - DEBUG - Resized image with padding. New dimensions: 1401x1869
-2024-10-30 02:12:28,251 - DEBUG - Pasted image onto background at offset (244, 10)
-2024-10-30 02:12:28,701 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(1).webp with format WEBP and quality default
-2024-10-30 02:12:28,703 - DEBUG - Processing image: jacket(2).jpg
-2024-10-30 02:12:28,709 - DEBUG - Created background image with color #CCC and dimensions 1889x1889
-2024-10-30 02:12:28,769 - DEBUG - Resized image with padding. New dimensions: 1401x1869
-2024-10-30 02:12:28,772 - DEBUG - Pasted image onto background at offset (244, 10)
-2024-10-30 02:12:29,276 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(2).webp with format WEBP and quality default
-2024-10-30 02:12:29,278 - DEBUG - Processing image: jacket(3).jpg
-2024-10-30 02:12:29,284 - DEBUG - Created background image with color #CCC and dimensions 1889x1889
-2024-10-30 02:12:29,346 - DEBUG - Resized image with padding. New dimensions: 1401x1869
-2024-10-30 02:12:29,350 - DEBUG - Pasted image onto background at offset (244, 10)
-2024-10-30 02:12:29,855 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(3).webp with format WEBP and quality default
-2024-10-30 02:12:29,858 - DEBUG - Processing image: jacket.jpg
-2024-10-30 02:12:29,864 - DEBUG - Created background image with color #CCC and dimensions 1889x1889
-2024-10-30 02:12:29,928 - DEBUG - Resized image with padding. New dimensions: 1401x1869
-2024-10-30 02:12:29,932 - DEBUG - Pasted image onto background at offset (244, 10)
-2024-10-30 02:12:30,472 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket.webp with format WEBP and quality default
-2024-10-30 02:12:30,475 - INFO - Image processing completed.
-2024-10-30 02:12:44,173 - INFO - Starting image processing.
-2024-10-30 02:12:44,173 - DEBUG - Processing image: jacket(1).jpg
-2024-10-30 02:12:44,174 - DEBUG - Created background image with color #CCC and dimensions 200x200
-2024-10-30 02:12:44,200 - DEBUG - Resized image with padding. New dimensions: 135x180
-2024-10-30 02:12:44,200 - DEBUG - Pasted image onto background at offset (32, 10)
-2024-10-30 02:12:44,207 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(1).webp with format WEBP and quality default
-2024-10-30 02:12:44,208 - DEBUG - Processing image: jacket(2).jpg
-2024-10-30 02:12:44,208 - DEBUG - Created background image with color #CCC and dimensions 200x200
-2024-10-30 02:12:44,236 - DEBUG - Resized image with padding. New dimensions: 135x180
-2024-10-30 02:12:44,236 - DEBUG - Pasted image onto background at offset (32, 10)
-2024-10-30 02:12:44,244 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(2).webp with format WEBP and quality default
-2024-10-30 02:12:44,244 - DEBUG - Processing image: jacket(3).jpg
-2024-10-30 02:12:44,245 - DEBUG - Created background image with color #CCC and dimensions 200x200
-2024-10-30 02:12:44,272 - DEBUG - Resized image with padding. New dimensions: 135x180
-2024-10-30 02:12:44,272 - DEBUG - Pasted image onto background at offset (32, 10)
-2024-10-30 02:12:44,279 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(3).webp with format WEBP and quality default
-2024-10-30 02:12:44,280 - DEBUG - Processing image: jacket.jpg
-2024-10-30 02:12:44,280 - DEBUG - Created background image with color #CCC and dimensions 200x200
-2024-10-30 02:12:44,310 - DEBUG - Resized image with padding. New dimensions: 135x180
-2024-10-30 02:12:44,310 - DEBUG - Pasted image onto background at offset (32, 10)
-2024-10-30 02:12:44,317 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket.webp with format WEBP and quality default
-2024-10-30 02:12:44,318 - INFO - Image processing completed.
-2024-10-30 02:14:21,176 - INFO - Starting image processing.
-2024-10-30 02:14:21,176 - DEBUG - Processing image: jacket(1).jpg
-2024-10-30 02:14:21,270 - DEBUG - Created background image with color #CCC and dimensions 7559x7559
-2024-10-30 02:14:21,720 - DEBUG - Resized image with padding. New dimensions: 5654x7539
-2024-10-30 02:14:21,773 - DEBUG - Pasted image onto background at offset (952, 10)
-2024-10-30 02:14:28,844 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(1).png with format PNG and quality default
-2024-10-30 02:14:28,876 - DEBUG - Processing image: jacket(2).jpg
-2024-10-30 02:14:28,980 - DEBUG - Created background image with color #CCC and dimensions 7559x7559
-2024-10-30 02:14:29,421 - DEBUG - Resized image with padding. New dimensions: 5654x7539
-2024-10-30 02:14:29,468 - DEBUG - Pasted image onto background at offset (952, 10)
-2024-10-30 02:14:39,162 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(2).png with format PNG and quality default
-2024-10-30 02:14:39,186 - DEBUG - Processing image: jacket(3).jpg
-2024-10-30 02:14:39,289 - DEBUG - Created background image with color #CCC and dimensions 7559x7559
-2024-10-30 02:14:39,721 - DEBUG - Resized image with padding. New dimensions: 5654x7539
-2024-10-30 02:14:39,769 - DEBUG - Pasted image onto background at offset (952, 10)
-2024-10-30 02:14:50,336 - DEBUG - Image saved to E:/mini-python-utils-app/bulk-image-edit/output\jacket(3).png with format PNG and quality default
-2024-10-30 02:14:50,361 - DEBUG - Processing image: jacket.jpg
-2024-10-30 02:14:50,460 - DEBUG - Created background image with color #CCC and dimensions 7559x7559
-2024-10-30 02:14:50,896 - DEBUG - Resized image with padding. New dimensions: 5654x7539
-2024-10-30 02:14:50,954 - DEBUG - Pasted image onto background at offset (952, 10)
+2024-11-04 20:27:16,618 - INFO - Starting image processing.
+2024-11-04 20:27:16,619 - DEBUG - Processing image: navj.jpg
+2024-11-04 20:27:16,677 - DEBUG - Created background image with color pink and dimensions 500x500
+2024-11-04 20:27:16,697 - DEBUG - Resized image with padding. New dimensions: 225x400
+2024-11-04 20:27:16,698 - DEBUG - Pasted image onto background at offset (137, 50)
+2024-11-04 20:27:16,820 - DEBUG - Image saved to C:/Users/navje/Downloads/DEMO/OUTPUT\navj.webp with format WEBP and quality default
+2024-11-04 20:27:16,820 - DEBUG - Processing image: navjeevanincome23.jpg
+2024-11-04 20:27:16,834 - DEBUG - Created background image with color pink and dimensions 500x500
+2024-11-04 20:27:16,933 - DEBUG - Resized image with padding. New dimensions: 180x400
+2024-11-04 20:27:16,933 - DEBUG - Pasted image onto background at offset (160, 50)
+2024-11-04 20:27:16,961 - DEBUG - Image saved to C:/Users/navje/Downloads/DEMO/OUTPUT\navjeevanincome23.webp with format WEBP and quality default
+2024-11-04 20:27:16,963 - DEBUG - Processing image: OTP program.jpg
+2024-11-04 20:27:16,992 - DEBUG - Created background image with color pink and dimensions 500x500
+2024-11-04 20:27:17,015 - DEBUG - Resized image with padding. New dimensions: 400x225
+2024-11-04 20:27:17,015 - DEBUG - Pasted image onto background at offset (50, 137)
+2024-11-04 20:27:17,041 - DEBUG - Image saved to C:/Users/navje/Downloads/DEMO/OUTPUT\OTP program.webp with format WEBP and quality default
+2024-11-04 20:27:17,043 - DEBUG - Skipping non-image file: OUTPUT
+2024-11-04 20:27:17,043 - DEBUG - Processing image: Photo from Prasad Galgalkar (1).jpg
+2024-11-04 20:27:17,050 - DEBUG - Created background image with color pink and dimensions 500x500
+2024-11-04 20:27:17,089 - DEBUG - Resized image with padding. New dimensions: 300x400
+2024-11-04 20:27:17,089 - DEBUG - Pasted image onto background at offset (100, 50)
+2024-11-04 20:27:17,125 - DEBUG - Image saved to C:/Users/navje/Downloads/DEMO/OUTPUT\Photo from Prasad Galgalkar (1).webp with format WEBP and quality default
+2024-11-04 20:27:17,125 - INFO - Image processing completed.
+2024-11-04 20:27:42,519 - INFO - Starting image processing.
+2024-11-04 20:27:42,520 - DEBUG - Processing image: navj.jpg
+2024-11-04 20:27:42,523 - DEBUG - Created background image with color #fff and dimensions 1080x1080
+2024-11-04 20:27:42,547 - DEBUG - Resized image with padding. New dimensions: 551x980
+2024-11-04 20:27:42,548 - DEBUG - Pasted image onto background at offset (264, 50)
+2024-11-04 20:27:42,679 - DEBUG - Image saved to C:/Users/navje/Downloads/DEMO/OUTPUT\navj.webp with format WEBP and quality default
+2024-11-04 20:27:42,679 - DEBUG - Processing image: navjeevanincome23.jpg
+2024-11-04 20:27:42,682 - DEBUG - Created background image with color #fff and dimensions 1080x1080
+2024-11-04 20:27:42,797 - DEBUG - Resized image with padding. New dimensions: 441x980
+2024-11-04 20:27:42,798 - DEBUG - Pasted image onto background at offset (319, 50)
+2024-11-04 20:27:42,929 - DEBUG - Image saved to C:/Users/navje/Downloads/DEMO/OUTPUT\navjeevanincome23.webp with format WEBP and quality default
+2024-11-04 20:27:42,931 - DEBUG - Processing image: OTP program.jpg
+2024-11-04 20:27:42,934 - DEBUG - Created background image with color #fff and dimensions 1080x1080
+2024-11-04 20:27:42,966 - DEBUG - Resized image with padding. New dimensions: 980x551
+2024-11-04 20:27:42,966 - DEBUG - Pasted image onto background at offset (50, 264)
+2024-11-04 20:27:43,084 - DEBUG - Image saved to C:/Users/navje/Downloads/DEMO/OUTPUT\OTP program.webp with format WEBP and quality default
+2024-11-04 20:27:43,085 - DEBUG - Skipping non-image file: OUTPUT
+2024-11-04 20:27:43,086 - DEBUG - Processing image: Photo from Prasad Galgalkar (1).jpg
+2024-11-04 20:27:43,088 - DEBUG - Created background image with color #fff and dimensions 1080x1080
+2024-11-04 20:27:43,132 - DEBUG - Resized image with padding. New dimensions: 735x980
+2024-11-04 20:27:43,133 - DEBUG - Pasted image onto background at offset (172, 50)
+2024-11-04 20:27:43,314 - DEBUG - Image saved to C:/Users/navje/Downloads/DEMO/OUTPUT\Photo from Prasad Galgalkar (1).webp with format WEBP and quality default
+2024-11-04 20:27:43,315 - INFO - Image processing completed.
+2024-11-15 21:48:32,683 - INFO - Starting image processing.
+2024-11-15 21:48:32,684 - DEBUG - Processing image: IMG-20240817-WA0153.jpg
+2024-11-15 21:48:32,829 - DEBUG - Created background image with color red and dimensions 1000x1000
+2024-11-15 21:48:32,865 - DEBUG - Resized image with padding. New dimensions: 960x432
+2024-11-15 21:48:32,866 - DEBUG - Pasted image onto background at offset (20, 284)
+2024-11-15 21:48:33,277 - DEBUG - Image saved to C:/Users/navje/Downloads/demo/output\IMG-20240817-WA0153.webp with format WEBP and quality default
+2024-11-15 21:48:33,278 - DEBUG - Processing image: IMG-20240820-WA0045.jpg
+2024-11-15 21:48:33,282 - DEBUG - Created background image with color red and dimensions 1000x1000
+2024-11-15 21:48:33,594 - DEBUG - Resized image with padding. New dimensions: 540x960
+2024-11-15 21:48:33,595 - DEBUG - Pasted image onto background at offset (230, 20)
+2024-11-15 21:48:33,930 - DEBUG - Image saved to C:/Users/navje/Downloads/demo/output\IMG-20240820-WA0045.webp with format WEBP and quality default
+2024-11-15 21:48:33,936 - DEBUG - Processing image: IMG-20240823-WA0019.jpg
+2024-11-15 21:48:33,958 - DEBUG - Created background image with color red and dimensions 1000x1000
+2024-11-15 21:48:34,050 - DEBUG - Resized image with padding. New dimensions: 810x960
+2024-11-15 21:48:34,051 - DEBUG - Pasted image onto background at offset (95, 20)
+2024-11-15 21:48:34,373 - DEBUG - Image saved to C:/Users/navje/Downloads/demo/output\IMG-20240823-WA0019.webp with format WEBP and quality default
+2024-11-15 21:48:34,375 - DEBUG - Skipping non-image file: output
+2024-11-15 21:48:34,375 - INFO - Image processing completed.
+2025-01-22 17:49:37,938 - INFO - Starting image processing.
+2025-01-22 17:49:37,942 - DEBUG - Processing image: 1.png
+2025-01-22 17:49:38,201 - DEBUG - Created background image with color red and dimensions 1000x1000
+2025-01-22 17:49:38,242 - DEBUG - Resized image with padding. New dimensions: 960x539
+2025-01-22 17:49:38,244 - DEBUG - Pasted image onto background at offset (20, 230)
+2025-01-22 17:49:38,741 - DEBUG - Image saved to C:/Users/navje/Pictures/donut-images/output\1.webp with format WEBP and quality default
+2025-01-22 17:49:38,744 - DEBUG - Processing image: 2.png
+2025-01-22 17:49:38,763 - DEBUG - Created background image with color red and dimensions 1000x1000
+2025-01-22 17:49:38,804 - DEBUG - Resized image with padding. New dimensions: 960x598
+2025-01-22 17:49:38,805 - DEBUG - Pasted image onto background at offset (20, 201)
+2025-01-22 17:49:39,087 - DEBUG - Image saved to C:/Users/navje/Pictures/donut-images/output\2.webp with format WEBP and quality default
+2025-01-22 17:49:39,089 - DEBUG - Processing image: 3.png
+2025-01-22 17:49:39,108 - DEBUG - Created background image with color red and dimensions 1000x1000
+2025-01-22 17:49:39,151 - DEBUG - Resized image with padding. New dimensions: 960x541
+2025-01-22 17:49:39,152 - DEBUG - Pasted image onto background at offset (20, 229)
+2025-01-22 17:49:39,422 - DEBUG - Image saved to C:/Users/navje/Pictures/donut-images/output\3.webp with format WEBP and quality default
+2025-01-22 17:49:39,423 - DEBUG - Processing image: 4.png
+2025-01-22 17:49:39,448 - DEBUG - Created background image with color red and dimensions 1000x1000
+2025-01-22 17:49:39,526 - DEBUG - Resized image with padding. New dimensions: 960x687
+2025-01-22 17:49:39,526 - DEBUG - Pasted image onto background at offset (20, 156)
+2025-01-22 17:49:39,796 - DEBUG - Image saved to C:/Users/navje/Pictures/donut-images/output\4.webp with format WEBP and quality default
+2025-01-22 17:49:39,797 - DEBUG - Processing image: 5.png
+2025-01-22 17:49:39,813 - DEBUG - Created background image with color red and dimensions 1000x1000
+2025-01-22 17:49:39,875 - DEBUG - Resized image with padding. New dimensions: 960x622
+2025-01-22 17:49:39,875 - DEBUG - Pasted image onto background at offset (20, 189)
+2025-01-22 17:49:40,180 - DEBUG - Image saved to C:/Users/navje/Pictures/donut-images/output\5.webp with format WEBP and quality default
+2025-01-22 17:49:40,181 - INFO - Image processing completed.
+2025-01-22 17:50:48,362 - INFO - Starting image processing.
+2025-01-22 17:50:48,363 - DEBUG - Processing image: 1.png
+2025-01-22 17:50:48,368 - DEBUG - Created background image with color #ff0 and dimensions 900x900
+2025-01-22 17:50:48,406 - DEBUG - Resized image with padding. New dimensions: 860x483
+2025-01-22 17:50:48,408 - DEBUG - Pasted image onto background at offset (20, 208)
+2025-01-22 17:50:48,632 - DEBUG - Image saved to C:/Users/navje/Pictures/donut-images/output\1.webp with format WEBP and quality default
+2025-01-22 17:50:48,634 - DEBUG - Processing image: 2.png
+2025-01-22 17:50:48,637 - DEBUG - Created background image with color #ff0 and dimensions 900x900
+2025-01-22 17:50:48,667 - DEBUG - Resized image with padding. New dimensions: 860x536
+2025-01-22 17:50:48,668 - DEBUG - Pasted image onto background at offset (20, 182)
+2025-01-22 17:50:48,851 - DEBUG - Image saved to C:/Users/navje/Pictures/donut-images/output\2.webp with format WEBP and quality default
+2025-01-22 17:50:48,852 - DEBUG - Processing image: 3.png
+2025-01-22 17:50:48,855 - DEBUG - Created background image with color #ff0 and dimensions 900x900
+2025-01-22 17:50:48,885 - DEBUG - Resized image with padding. New dimensions: 860x485
+2025-01-22 17:50:48,886 - DEBUG - Pasted image onto background at offset (20, 207)
+2025-01-22 17:50:49,066 - DEBUG - Image saved to C:/Users/navje/Pictures/donut-images/output\3.webp with format WEBP and quality default
+2025-01-22 17:50:49,067 - DEBUG - Processing image: 4.png
+2025-01-22 17:50:49,072 - DEBUG - Created background image with color #ff0 and dimensions 900x900
+2025-01-22 17:50:49,140 - DEBUG - Resized image with padding. New dimensions: 860x615
+2025-01-22 17:50:49,141 - DEBUG - Pasted image onto background at offset (20, 142)
+2025-01-22 17:50:49,395 - DEBUG - Image saved to C:/Users/navje/Pictures/donut-images/output\4.webp with format WEBP and quality default
+2025-01-22 17:50:49,397 - DEBUG - Processing image: 5.png
+2025-01-22 17:50:49,401 - DEBUG - Created background image with color #ff0 and dimensions 900x900
+2025-01-22 17:50:49,466 - DEBUG - Resized image with padding. New dimensions: 860x557
+2025-01-22 17:50:49,466 - DEBUG - Pasted image onto background at offset (20, 171)
+2025-01-22 17:50:49,678 - DEBUG - Image saved to C:/Users/navje/Pictures/donut-images/output\5.webp with format WEBP and quality default
+2025-01-22 17:50:49,680 - INFO - Image processing completed.

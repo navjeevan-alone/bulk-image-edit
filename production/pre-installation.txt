@@ -1,0 +1,18 @@
+Welcome to Magic Edits Bulk Image Editor! ✨
+Thank you for choosing Magic Edits to streamline your image editing process.
+
+About Magic Edits:
+
+A user-friendly, bulk image editor designed for freelancers, photographers, and creative professionals.
+Instantly resize images, set custom backgrounds, and optimize image quality in seconds.
+Boosts productivity and saves hours by transforming hundreds of images with one click.
+Features:
+
+Resize and format large image batches efficiently.
+Set uniform backgrounds for brand consistency.
+Specify output file sizes for web or print readiness.
+Installation Details: This installer will guide you through the setup process. Please make sure:
+
+You have adequate storage space for the application.
+Administrative privileges are enabled for smooth installation.
+Click Next to begin the installation.
